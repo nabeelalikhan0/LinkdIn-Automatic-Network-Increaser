@@ -8,8 +8,8 @@ driver = webdriver.Chrome()
 driver.get("https://www.linkedin.com/mynetwork/grow/")
 
 
-email = "nabeel03103n@gmail.com"
-password = "qd5EuU7WX_@y0jt"
+email = "your email"
+password = "your password"
 
 
 input_email = driver.find_element(By.ID, "username")
